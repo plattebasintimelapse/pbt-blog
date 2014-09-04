@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-<div class="home page" id="home feed-post">
-	<div class="home-img">
-	    <img src="/images/about/pbt.jpg" alt="">
+<div class="home-img">
+    <img src="/images/blog-home.jpg" alt="">
+    <div class="home-blog-desc">
+		<p>A collection of field notes, musings, opinions, behind-the-scenes, and stories from the road from the Platte Basin Timelapse team.</p>
 	</div>
+
+</div>
+<!-- <div class="row">
+	<div class="col-xs-12 home-blog-desc">
+		<p>A collection of field notes, musings, opinions, behind-the-scenes, and stories from the road from the Platte Basin Timelapse team.</p>
+	</div>
+</div> -->
+
+<div class="home page" id="home feed-post">
+	
     {% for post in site.posts limit: 10 %}
         {% if post.draft != true %}
 
