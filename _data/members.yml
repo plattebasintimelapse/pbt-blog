@@ -1,0 +1,87 @@
+- name: Mike Forsberg
+  role: Co-Founder
+  contact:
+    email: forsberg.mike@gmail.com
+    website: www.michaelforsberg.com
+    instagram: mforsbergphoto
+  description: Mike has been a professional photographer for almost 20 years, focusing on wildlife and conservation stories in the Great Plains of North America. Born and raised in Nebraska, Mike began his career at NEBRASKAland magazine as a staff photographer and writer. His most recent project was the book Great Plains--America's Lingering Wild and the PBS documentary based on the same title. Platte Basin Timelapse began as an idea during the filming of this project. He is currently on faculty at the Institute of Natural Resources at the University of Nebraska - Lincoln and owns the Michael Forsberg Gallery in downtown Lincoln.
+  image: mike.png
+  team: yep
+- name: Michael Farrell
+  role: Co-Founder
+  contact:
+    email: mfarrell@netad.unl.edu
+    instagram: michaelfarrell47
+  description: Currently the Special Projects Manager for NET, Nebraska’s statewide public broadcasting organization, Michael is a forty-three year veteran in public broadcasting. Forty-one of those years have been spent in production and management in Nebraska and the Great Plains. His latest project was producing/directing the PBS documentary based on Forsberg's book, Great Plains--America's Lingering Wild. He is currently on faculty at the Institute of Natural Resources at the University of Nebraska - Lincoln.  
+  image: farrell.png
+  team: yep
+- name: Ariana Brocious
+  role: Digital Journalist
+  contact:
+    email: abrocious@netad.unl.edu
+    twitter: ArianaBrocious
+  description: A native of the desert southwest, knowledge of the vital role of water came early to Ariana Brocious, who grew up exploring southern Arizona’s scrubby mountains and dry riverbeds. A graduate of the University of Arizona, she started reporting on the environment—and how humans interact with it—in earnest during her years in Western Colorado, where she worked as News Director for KVNF Public Radio and High Country News magazine. She spent her first year and a half in Nebraska as the morning host/reporter for NET Radio, and is now excited to join the PBT team and put her reporting, writing, and radio skills to use telling the stories of the Platte River Basin.
+  image: ari.png
+  team: yep
+- name: Steven Speicher
+  role: Web Producer
+  contact:
+    email: stevenspeicher@gmail.com
+    github: stvnspchr
+    instagram: stvnspchr
+    flickr: stvnspchr
+  description: A lifelong Nebraskan, Steven graduated from the University of Nebraska - Lincoln in Film and Environmental Studies, remaining home on the Great Plains. Steven's toolbag consists of video production, time-lapse photography, and web design/development. Dynamic in his roles, Steven can be found trekking the banks of the Platte River or Nebraska prairies, looking for the next shot, or sitting behind the keyboard, coding or editing still images and videos. His cat is his most trusted desk companion.
+  image: steven.png
+  team: sure
+- name: Peter Stegen
+  role: Production Assistant
+  contact:
+    email: peterstegen@netad.unl.edu
+    instagram: onetimeoutfitters
+    flickr: peterstegen
+    tumblr: peterstegen
+  description: A native of Minnesota’s "Land of 10,000 Lakes", Peter grew up in the outdoors. His family was blessed to spend their free time visiting national parks, state parks, and campgrounds across the scenic United States. After high school, Peter moved to Lincoln, Nebraska with plans of becoming a nurse, though after a few unsatisfied years and adequate time soul-searching, he decided his passion for being outdoors deserved a career. An alumnus of the Fisheries & Wildlife program at the University of Nebraska - Lincoln, Peter has an unconditional love for the wild places and things left on this planet.
+  image: peter.png
+  team: ya
+- name: Sierra Harris
+  role: Production Associate
+  contact:
+    email: sierrah154@hotmail.com
+  description: Sierra recently received a Bachelor of Science degree from the University of Nebraska-Lincoln in Environmental Studies, including an emphasis in water science and natural resources. Her understanding of the Platte River Basin has expanded by creating time-lapse videos and photo stories, which involve research and conversation with various people around the basin. This project has opened her eyes to the Platte River’s intricate system and its importance for people and wildlife species amongst the Platte River Basin. Sierra has been on the PBT team since 2011 and is excited to continue her contribution post graduation.
+  image: sierra.png
+  team: ya
+- name: Joe Arneson
+  role: Production Intern
+  contact:
+    email: joearneson@hotmail.com
+  description: Joe is a junior at the University of Nebraska - Lincoln studying Water Science and Environmental Restoration. Having spent the majority of his summer vacations at National Parks, Joe has grown to love the outdoors and the beauty of nature. An advocate of responsible stewardship to the land, Joe is excited to use photography and timelapse video to show others our majestic place.
+  image: joe.png
+  team: ya
+- name: Mariah Lundgren
+  role: Production Intern
+  contact:
+    email: mlundgren92@yahoo.com 
+    instagram: mariahwind
+    flickr: 107233898@N08
+  description: Mariah is a wanderlust from Omaha, NE and is currently a senior at the University of Nebraska-Lincoln studying Environmental Studies and Fisheries and Wildlife.  Her childhood consisted of spending summers in Oregon, weekends at State Parks, and weeknights playing in the dirt in her backyard. Mariah hopes to spread her love for all things wild and educate the importance of environmental stewardship through photography.  She is a new member of this team and is eager to learn, educate, and create.  
+  image: mariah.png
+  team: yep
+- name: Emma Brinley Buckley
+  role: Graduate Research Assistant
+  contact:
+    email: emma.brinley.buckley@gmail.com
+  description: A current graduate student in the Nebraska Cooperative Fish & Wildlife Research Unit and a transplant from the east coast, Emma is fascinated with the communicative ability and integration of photography and science. Her research on the central Platte incorporates water-quality monitoring and call phenology of birds, frogs, and bats, engaged with PBT’s photos. She has fallen in love with the sunsets, wildlife, and thunderstorms of Nebraska.  
+  image: emma.png
+  team: yep
+- name: Dave Showalter
+  role: South Platte Field Assistant
+  contact:
+    email: dave@daveshowalter.com
+  description: Colorado based conservation photographer, Dave Showalter is the author and photographer of the award-winning book "Prairie Thunder - The Nature of Colorado's Great Plains." Dave has a lifelong interest in natural history and has been photographing in Colorado and the west for more than 20 years. Dave's photographs and articles have appeared in numerous publications, including Outside, Outdoor Photographer, National Parks Magazine, Wilderness and elsewhere. Dave is the photographer for Rocky Mountain Arsenal National Wildlife Refuge, a member of the International League of Conservation Photographers (iLCP), and supporter of numerous conservation groups. Dave and his wife Marla love adventuring, whether it's reaching for a high summit, waiting for golden light on a prairie butte, searching for wildlife, or trekking in a developing country. Dave and Marla live in Arvada, Colorado.  
+  image: dave.png
+  team: yep
+- name: PBT Team
+  role: The Team
+  contact:
+    email: plattebasintl@gmail.com
+  description: This is the user for all of us to share content.

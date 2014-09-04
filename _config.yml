@@ -1,0 +1,9 @@
+name: "PBT Team Blog"
+title: "Team PBT"
+description: "The team blog for Platte Basin Timelapse team members"
+keywords: "Platte Basin, timelapse, water, Nebraska, Wyoming, Colorado, river, wildlife, agriculture, blog"
+
+url: "http://www.plattebasintimelapse.com/blog"
+
+markdown: rdiscount
+permalink: :year/:title

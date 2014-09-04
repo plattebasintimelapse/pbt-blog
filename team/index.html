@@ -1,0 +1,31 @@
+---
+layout: default
+title: Team
+---
+<article class="page" id="team-page">
+    <h2 class="page-title">{{ page.title }}</h2>
+    
+    {% for member in site.data.members %}
+        {% if member.team != nil %}
+            <section class="feed-team-member row">
+                <div class="col-sm-4 member-img-container">
+                    <img class="member-img" src="{{site.url}}/images/bio/{{ member.image }}" alt="member.image" >
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="team-member-name"> {{ member.name }} - {{ member.role }}</h2>
+                    <h5 class="team-member-contact">
+                        {% if member.contact.email %}<span>|</span><span><a href="mailto:{{ member.contact.email }}?Subject=Greetings!" target="_top">email</a></span><span>|</span>{% endif %}
+                        {% if member.contact.website %}<span><a target="_blank" href="http://{{ member.contact.website }}">website</a></span><span>|</span>{% endif %}
+                        {% if member.contact.github %}<span><a target="_blank" href="http://www.github.com/{{ member.contact.github }}">github</a></span><span>|</span>{% endif %}
+                        {% if member.contact.instagram %}<span><a target="_blank" href="http://www.instagram.com/{{ member.contact.instagram }}">instagram</a></span><span>|</span>{% endif %}
+                        {% if member.contact.twitter %}<span><a target="_blank" href="http://www.twitter.com/{{ member.contact.twitter }}">twitter</a></span><span>|</span>{% endif %}
+                        {% if member.contact.flickr %}<span><a target="_blank" href="http://www.flickr.com/{{ member.contact.flickr }}">flickr</a></span><span>|</span>{% endif %}
+                        {% if member.contact.tumblr %}<span><a target="_blank" href="http://www.{{ member.contact.tumblr }}.tumblr.com">tumblr</a></span><span>|</span>{% endif %}
+                    </h5>
+                    <p class="team-member-description">{{ member.description }}</p>
+                </div>
+            </section>
+        {% endif %}
+    {% endfor %}
+    
+</article>
