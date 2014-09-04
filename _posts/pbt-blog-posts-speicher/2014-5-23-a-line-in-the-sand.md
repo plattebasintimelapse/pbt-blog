@@ -2,6 +2,7 @@
 layout: post
 title: A Line in the Sand
 description: This last March marked three years of collecting images in the Platte Basin. I like to think of this anniversary as a line in the sand, a turning point for what the Platte Basin Timelapse project is and can be.
+image: a-line-in-the-sand/CraneCam_20110309_Forsberg_001.jpg
 author: Steven Speicher
 
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: The Value of High Places
 description: Mike Forsberg describes the importance and beauty of high places in the Platte River Basin.
+image: the-value-of-high-places/20140616_0014.jpg
 author: Mike Forsberg
 
 ---

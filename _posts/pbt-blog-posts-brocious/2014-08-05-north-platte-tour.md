@@ -2,6 +2,7 @@
 layout: post
 title: Touring the North Platte
 description: Platte Basin Timelapse tours the North Platte Irrigation system (including Pathfinder Dam) with cameras in hand, to learn how water is managed between the mountains and the crop fields.
+image: north-platte-tour/7-small_pathfdam22.jpg
 author: Ariana Brocious
 
 ---

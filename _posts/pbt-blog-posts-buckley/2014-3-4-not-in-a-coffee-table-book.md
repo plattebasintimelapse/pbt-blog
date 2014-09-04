@@ -2,6 +2,7 @@
 layout: post
 title: Nebraska-Not in a Coffee Table Book
 description: My first impression of Nebraska and an introduction to my research.
+image: not-in-a-coffee-table-book/me.jpg
 author: Emma Brinley Buckley
 
 ---

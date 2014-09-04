@@ -32,6 +32,8 @@ h6 {font-size: .9em;}
 
 #site-header #logo-img {
     margin-top: -10px;
+    height: 50px;
+    width: 100px;
 }
 
 #site-header #logo-tag {
@@ -106,13 +108,21 @@ a:hover {
  */
 
 .home {
-    max-width: 460px;
+    max-width: 660px;
+}
+
+.home img {
+    width:100%;
 }
 
 .feed-post-item {
     border-bottom: 1px solid black;  
     padding-bottom: 20px;
     margin-bottom: 40px;
+}
+
+.post-img {
+    width:100%;
 }
 
 .post-title {
@@ -341,6 +351,9 @@ a:hover {
 	#site-header #logo-tag {
 		font-size: .8em;
 	}
+    .feed-post-item .post-title {
+        margin-top: 10px;
+    }
 	#team-page .col-sm-4 {
 		padding-left: 0px;
 		padding-right: 0px;

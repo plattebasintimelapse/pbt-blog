@@ -2,14 +2,26 @@
 layout: default
 ---
 <div class="home page" id="home feed-post">
-    
+	<div class="home-img">
+	    <img src="/images/about/pbt.jpg" alt="">
+	</div>
     {% for post in site.posts limit: 10 %}
         {% if post.draft != true %}
 
-            <div class="feed-post-item">
-                <p class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
-                <p class="post-meta">by <a href="{{ site.url }}/authors/{{ post.author|split: ' '|last|downcase }}">{{ post.author }}</a> on {{ post.date | date: "%-d %B %Y" }}</p>
-                <p class="post-description">{{ post.description}}</p>
+            <div class="row feed-post-item">
+            	{% if post.image %}
+            	<div class="col-sm-4">
+            		<a href="{{ site.url }}{{ post.url }}"><img class="post-img" src="{{site.url}}/images/pbt-blog-uploads/{{ post.image }}" ></a>
+            	</div>
+            	{% else %}
+            	<div class="col-sm-4">
+            	</div>
+            	{% endif %}
+            	<div class="col-sm-8">
+	                <p class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
+	                <p class="post-meta">by <a href="{{ site.url }}/authors/{{ post.author|split: ' '|last|downcase }}">{{ post.author }}</a> on {{ post.date | date: "%-d %B %Y" }}</p>
+	                <p class="post-description">{{ post.description}}</p>
+                </div>
             </div>
         {% endif %}
     {% endfor %}

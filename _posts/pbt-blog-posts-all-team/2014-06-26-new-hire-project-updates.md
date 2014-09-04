@@ -2,6 +2,7 @@
 layout: post
 title: New Hire and Project Update
 description: We're proud to introduce Ariana Brocious, PBT's newest hire. Together the team will tell the stories of the various people, places and issues in the basin and bring its complex geography to life.
+image: new-hire-project-updates/ari-at-rowe.jpg
 author: PBT Team
 
 ---
