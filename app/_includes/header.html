@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
+    <meta name="keywords" content="{{ site.keywords }}">
+    
+    {% if page.date %}
+	<meta http-equiv="date" content="{{ page.date | date: '%A, %B %-d, %Y' }}">
+	{% endif %}
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }} {% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <!-- endbuild -->
+
+    <script src="{{ site.url }}/js/jquery-2.1.1.min.js"></script>
+    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="//use.typekit.net/dlv3qjg.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="main-nav" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#blog-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                    <a href="http://www.plattebasintimelapse.com">
+                        <img id="logo-img" src="{{ site.url }}/images/PBT-logo.png" atl="PBT Logo" height="50" width="100">
+                    </a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="blog-navbar">
+                <ul class="nav navbar-nav" id="menu">
+                    <li class="main-nav-item"><a href="http://www.plattebasintimelapse.com/stories-page">Stories</a></li>
+                    <li class="main-nav-item"><a href="http://www.plattebasintimelapse.com/map">Explore</a></li>
+                    <li class="main-nav-item"><a href="http://www.plattebasintimelapse.com/blog">Notebook</a></li>
+                    <li class="main-nav-item"><a href="http://www.plattebasintimelapse.com/about">About</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid main-content">

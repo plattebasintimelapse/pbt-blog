@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="page page-author-archive">
+    <h6 class="page-title">{{ page.title }}'s Archive</h6>
+    
+    {% for post in site.posts %}
+        <!-- check if the Author Page author and Post Author same, check for draft status-->
+        {% if post.author == page.title and post.draft != true %} 
+            <div class="feed-post-item">
+                <p class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
+                <p class="post-description">{{ post.description}}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</article>

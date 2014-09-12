@@ -1,10 +1,32 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
 name: "PBT Team Blog"
 title: "Team PBT"
 description: "The team blog for Platte Basin Timelapse team members"
 keywords: "Platte Basin, timelapse, water, Nebraska, Wyoming, Colorado, river, wildlife, agriculture, blog"
 
-url: "http://www.plattebasintimelapse.com/blog"
-# url: ""
+url: ""
 
-markdown: rdiscount
+author:
+  name: Steven Speicher
+  email: stevenspeicher@gmail.com
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
 permalink: :year/:title
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: rdiscount
+#   extensions: []
+
+pygments: false
